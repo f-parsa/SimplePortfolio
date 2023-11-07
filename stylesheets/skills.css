@@ -1,0 +1,44 @@
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service:hover {
+    border: 2px solid rgba(128, 128, 128, 0.534);
+    border-radius: 15px 0 15px 0;
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+}
+
+.skills .col-md-8 {
+    background: #6fe1c6;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.experience .col-md-8 {
+    background: #e4686e;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+}

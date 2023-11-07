@@ -1,0 +1,56 @@
+.intro {
+    background-color: #00524b !important;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/intro-bg.svg');
+}
+
+.dev-name-1 {
+    font-size: 75px;
+    font-family: Titr;
+    color: rgba(233, 60, 60, 0.87);
+}
+
+.dev-name-2 {
+    font-family: Titr;
+    font-size: 75px;
+    color: rgba(241, 241, 64, 0.87);
+}
+
+@font-face {
+    font-family: Titr;
+    src: url('./knewave.otf')
+}
+
+.intro p {
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.get-started {
+    background-color: #068378;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+}
+
+.contact-me {
+    background-color: white;
+    padding: 10px 25px;
+    border: none;
+    color: black;
+}
+
+@media only screen and (max-width :600px) {
+    .dev-name-1 {
+        font-size: 35px;
+        font-family: Titr;
+        color: rgba(233, 60, 60, 0.87);
+    }
+    
+    .dev-name-2 {
+        font-family: Titr;
+        font-size: 35px;
+        color: rgba(241, 241, 64, 0.87);
+    }
+}

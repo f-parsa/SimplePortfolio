@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="stylesheets/skills.css" />
+    <link rel="stylesheet" href="stylesheets/header.css" />
+    <link rel="stylesheet" href="stylesheets/common.css" />
+    <link rel="stylesheet" href="stylesheets/intro.css" />
+    <link rel="stylesheet" href="stylesheets/projects.css" />
+    <title>Basic Portfolio</title>
+  </head>
+  <body>
+    <!-- -------------------Header Section-------------------- -->
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Parsa</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-item nav-link" href="#">Home</a>
+
+            <a class="nav-item nav-link" href="#services">Services</a>
+            <a class="nav-item nav-link" href="#skills">Skills</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="#contacts">Contacts</a>
+
+            <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ---------------------Intro Section-------------------- -->
+    <div class="row intro">
+      <div class="col-md-6 p-5">
+        <div class="d-flex">
+          <h1 class="dev-name-1">F.</h1>
+          <h1 class="dev-name-2">&nbsp;Parsa Seresht</h1>
+        </div>
+        <p>
+          Hello, I'm a passionate web developer with a keen eye for detail and a
+          love for crafting elegant, functional, and user-friendly websites.
+          With a solid foundation in front-end and back-end development, I bring
+          a unique blend of creativity and technical expertise to every project
+          I undertake.
+        </p>
+        <div class="d-flex justify-content-end">
+          <button class="get-started mx-3">Get Started</button>
+          <button class="contact-me">Contact Me</button>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#00524B"
+        fill-opacity="1"
+        d="M0,192L34.3,181.3C68.6,171,137,149,206,128C274.3,107,343,85,411,85.3C480,85,549,107,617,138.7C685.7,171,754,213,823,240C891.4,267,960,277,1029,256C1097.1,235,1166,181,1234,154.7C1302.9,128,1371,128,1406,128L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+      ></path>
+    </svg>
+    <div class="container services" id="services">
+      <h3 class="text-center my-5"><b>What I Do?</b></h3>
+      <div class="d-flex justify-content-center">
+        <div class="services_animation">
+          <dotlottie-player
+            src="https://lottie.host/5c4f7aaf-b508-4dcc-a102-cb50d645148e/JVNHpCmqj5.json"
+            background="transparent"
+            speed="1"
+            style="width: 500px; height: 500px"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="service">
+            <h5><b>Web Development</b></h5>
+            <img
+              src="https://cdni.iconscout.com/illustration/premium/thumb/web-development-2974925-2477356.png"
+              alt=""
+            />
+            <p>
+              Hello, I'm a passionate web developer with a keen eye for detail
+              and a love for crafting elegant, functional, and user-friendly
+              websites.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="service">
+            <h5><b>Digital Marketing</b></h5>
+            <img
+              src="https://digitalleadgroup.com/wp-content/uploads/2021/07/banner.png"
+              alt=""
+            />
+            <p>
+              Hello, I'm a passionate web developer with a keen eye for detail
+              and a love for crafting elegant, functional, and user-friendly
+              websites.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="service">
+            <h5><b>E-Commerce</b></h5>
+            <img
+              src="https://png.pngtree.com/png-clipart/20230111/original/pngtree-e-commerce-marketplace-illustration-png-image_8902721.png"
+              alt=""
+            />
+            <p>
+              Hello, I'm a passionate web developer with a keen eye for detail
+              and a love for crafting elegant, functional, and user-friendly
+              websites.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="service">
+            <h5><b>UX Design</b></h5>
+            <img
+              src="https://cdni.iconscout.com/illustration/premium/thumb/ui-ux-designer-3462404-2896022.png"
+              alt=""
+            />
+            <p>
+              Hello, I'm a passionate web developer with a keen eye for detail
+              and a love for crafting elegant, functional, and user-friendly
+              websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =================Skills & Exprience==================== -->
+
+    <!-- ============= Skills -->
+    <div class="row justify-content-end skills my-5" id="skills">
+      <div class="col-md-8">
+        <h3><b>Skills</b></h3>
+        <hr />
+        <div class="row">
+          <div class="col-md-4">
+            <div>
+              <h5><b>UI / UX</b></h5>
+              <hr />
+              <p>HTML, CSS, JavaScript</p>
+              <p>React JS</p>
+              <p>Material UI</p>
+            </div>
+            
+          </div>
+          <div class="col-md-4">
+            <div>
+              <h5><b>Backend</b></h5>
+              <hr />
+              <p>Nodejs , ExpressJs</p>
+              <p>PHP, Laravel</p>
+              <p>Django, Flask</p>
+            </div>
+            
+          </div>
+          <div class="col-md-4">
+            <div>
+              <h5><b>SEO, ECommerce</b></h5>
+              <hr />
+              <p>WordPress</p>
+              <p>wix.com</p>
+              <p>Grape.js</p>
+            </div>
+          </div>
+          
+          </div>
+          </div>
+        </div>
+<!-- ========= Expirience -->
+        <div class="row justify-content-start experience my-5">
+          <div class="col-md-8">
+            <h3><b>Experience</b></h3>
+            <hr />
+            <div class="row">
+              <div class="col-md-4">
+                <div>
+                  <h5><b>2013-2017</b></h5>
+                  <hr />
+                  <p>Javascript Developer</p>
+                  <p>Tech Solution</p>
+                  <p>Tehran</p>
+                </div>
+                
+              </div>
+              <div class="col-md-4">
+                <div>
+                  <h5><b>2017-2020</b></h5>
+                  <hr />
+                  <p>Nodejs Developer</p>
+                  <p>SR Tech Solution</p>
+                  <p>Tehran</p>
+                </div>
+                
+              </div>
+              <div class="col-md-4">
+                <div>
+                  <h5><b>2020-Present</b></h5>
+                  <hr />
+                  <p>Fullstack Developer</p>
+                  <p>Value Tech Solution</p>
+                  <p>Tehran</p>
+                </div>
+              </div>
+              
+              </div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <!-- ============= Projects -->
+    <div class="container" id="projects">
+      <h2 class="text-center"><b>Projects</b></h2>
+      <div class="d-flex justify-content-center">
+        <dotlottie-player src="https://lottie.host/d81509e7-9fc0-499a-b62a-410b07091288/9kvW5bB34s.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></dotlottie-player>
+      </div>
+      <div class="row">
+        <div class="col-md-4 p-3">
+          <div class="project">
+            <img src="images/car.png" alt="">
+            <div class="overlay">
+              <h5><b>Car Rental App</b></h5>
+              <p>Hello, I'm a passionate web developer with a keen eye for detail
+                and a love for crafting elegant, functional</p>
+                <button class="contact-me">View</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="project">
+            <img src="images/hotel.png" alt="">
+            <div class="overlay">
+              <h5><b>Hotel Rental App</b></h5>
+              <p>Hello, I'm a passionate web developer with a keen eye for detail
+                and a love for crafting elegant, functional</p>
+                <button class="contact-me">View</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="project">
+            <img src="images/job.png" alt="">
+            <div class="overlay">
+              <h5><b>Job Portal App</b></h5>
+              <p>Hello, I'm a passionate web developer with a keen eye for detail
+                and a love for crafting elegant, functional</p>
+                <button class="contact-me">View</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="project">
+            <img src="images/ecommerce.png" alt="">
+            <div class="overlay">
+              <h5><b>Ecommerce App</b></h5>
+              <p>Hello, I'm a passionate web developer with a keen eye for detail
+                and a love for crafting elegant, functional</p>
+                <button class="contact-me">View</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="project">
+            <img src="images/media.png" alt="">
+            <div class="overlay">
+              <h5><b>Social Media App</b></h5>
+              <p>Hello, I'm a passionate web developer with a keen eye for detail
+                and a love for crafting elegant, functional</p>
+                <button class="contact-me">View</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="project">
+            <img src="images/pizza.png" alt="">
+            <div class="overlay">
+              <h5><b>Pizza Delivery App</b></h5>
+              <p>Hello, I'm a passionate web developer with a keen eye for detail
+                and a love for crafting elegant, functional</p>
+                <button class="contact-me">View</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    <!-- ================ Contacts =================== -->
+    <div class="contact-box my-5" id="contacts">
+      <h3 class="py-5 text-center"><b>Contact Me</b></h3>
+    </div>
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-6">
+        <div class="d-flex flex-column contact-form">
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="Email">
+          <textarea rows="10" placeholder="Query"></textarea>
+          <div class="d-flex justify-content-end">
+            <button class="get-started mt-3">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============ Footer ================ -->
+    <div class="d-flex footer">
+      <p>Designed and Developed By</p>
+      <div class="devider"></div>
+      <p> F.parsa</p>
+    </div>
+  </body>
+</html>
